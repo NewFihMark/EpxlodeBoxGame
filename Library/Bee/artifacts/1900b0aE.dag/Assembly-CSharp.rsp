@@ -356,7 +356,10 @@
 "Assets/Item.cs"
 "Assets/Scripts/CharacterMovement.cs"
 "Assets/Scripts/CharacterStatus.cs"
+"Assets/Scripts/DayCycleManager.cs"
+"Assets/Scripts/DeadBox.cs"
 "Assets/Scripts/HeroCamera.cs"
+"Assets/Scripts/TakeItem.cs"
 "Assets/Scripts/TNT.cs"
 -langversion:9.0
 /deterministic
