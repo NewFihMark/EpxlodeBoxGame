@@ -353,10 +353,14 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/UnityTest/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/UnityTest/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Item.cs"
 "Assets/Scripts/CharacterMovement.cs"
 "Assets/Scripts/CharacterStatus.cs"
+"Assets/Scripts/DayCycleManager.cs"
+"Assets/Scripts/DeadBox.cs"
 "Assets/Scripts/HeroCamera.cs"
+"Assets/Scripts/Item.cs"
+"Assets/Scripts/PlatformBox.cs"
+"Assets/Scripts/TakeItem.cs"
 "Assets/Scripts/TNT.cs"
 -langversion:9.0
 /deterministic
