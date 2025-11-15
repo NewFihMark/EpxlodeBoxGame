@@ -4,37 +4,40 @@ using UnityEngine;
 
 public class TNT : MonoBehaviour
 {
-    public float timer = 5;
-    public float force = 100;
 
     public GameObject Effect;
     public List<Rigidbody> rigidbodies;
 
     public bool explode;
 
-    void Start()
-    {
-        Effect.SetActive(true);
-    }
+    [Space(5)]
+    [Header("Properties")]
+    public float timer = 5;
+    public float force = 15;
 
     // Update is called once per frame
     void Update()
     {
         timer -= Time.deltaTime;
-        if(timer < 0)
+
+        if (explode == true)
         {
-            explode = true;
-            Effect.SetActive(false);
-            for(int i = 0; i < rigidbodies.Count; i++)
+            if (timer < 0)
             {
+                explode = false;
+                Effect.SetActive(false);
+                for (int i = 0; i < rigidbodies.Count; i++)
+                {
 
-                rigidbodies[i].AddForce((rigidbodies[i].transform.position-gameObject.transform.position)*force/rigidbodies[i].mass, ForceMode.VelocityChange);
-                print($"add force to {rigidbodies[i].name}: { force / rigidbodies[i].mass}");
+                    rigidbodies[i].AddForce((rigidbodies[i].transform.position - gameObject.transform.position) * force / rigidbodies[i].mass, ForceMode.VelocityChange);
+                    print($"add force to {rigidbodies[i].name}: { force / rigidbodies[i].mass}");
+                }
+
+                Destroy(gameObject);
             }
-
-            Destroy(gameObject);
+            rigidbodies.Clear();
+            gameObject.GetComponent<SphereCollider>().enabled = true;
         }
-        rigidbodies.Clear();
     }
 
     private void OnTriggerEnter(Collider other)

@@ -65,8 +65,9 @@
     <Compile Include="Assets\Scripts\HeroCamera.cs" />
     <Compile Include="Assets\Scripts\TakeItem.cs" />
     <Compile Include="Assets\Scripts\DayCycleManager.cs" />
-    <Compile Include="Assets\Item.cs" />
+    <Compile Include="Assets\Scripts\PlatformBox.cs" />
     <Compile Include="Assets\Scripts\CharacterStatus.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\TNT.cs" />
   </ItemGroup>
   <ItemGroup>
