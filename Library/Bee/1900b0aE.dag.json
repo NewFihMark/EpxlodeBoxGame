@@ -19988,8 +19988,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1497325,
       "PayloadLength": 32621,
+=======
+      "PayloadOffset": 1372783,
+      "PayloadLength": 28407,
+>>>>>>> 05cccf0c6fc32a433fb959d8601cb06839374093
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -20001,7 +20006,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1530033,
+=======
+      "PayloadOffset": 1401277,
+>>>>>>> 05cccf0c6fc32a433fb959d8601cb06839374093
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -20246,10 +20255,14 @@
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
-        "Assets/Item.cs",
         "Assets/Scripts/CharacterMovement.cs",
         "Assets/Scripts/CharacterStatus.cs",
+        "Assets/Scripts/DayCycleManager.cs",
+        "Assets/Scripts/DeadBox.cs",
         "Assets/Scripts/HeroCamera.cs",
+        "Assets/Scripts/Item.cs",
+        "Assets/Scripts/PlatformBox.cs",
+        "Assets/Scripts/TakeItem.cs",
         "Assets/Scripts/TNT.cs",
         "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
@@ -20490,7 +20503,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1530129,
+=======
+      "PayloadOffset": 1401373,
+>>>>>>> 05cccf0c6fc32a433fb959d8601cb06839374093
       "PayloadLength": 9449,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],

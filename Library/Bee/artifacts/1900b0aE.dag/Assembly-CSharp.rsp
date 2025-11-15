@@ -351,12 +351,22 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+<<<<<<< HEAD
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Item.cs"
+=======
+-analyzer:"D:/UnityTest/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"D:/UnityTest/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+>>>>>>> 05cccf0c6fc32a433fb959d8601cb06839374093
 "Assets/Scripts/CharacterMovement.cs"
 "Assets/Scripts/CharacterStatus.cs"
+"Assets/Scripts/DayCycleManager.cs"
+"Assets/Scripts/DeadBox.cs"
 "Assets/Scripts/HeroCamera.cs"
+"Assets/Scripts/Item.cs"
+"Assets/Scripts/PlatformBox.cs"
+"Assets/Scripts/TakeItem.cs"
 "Assets/Scripts/TNT.cs"
 -langversion:9.0
 /deterministic

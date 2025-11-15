@@ -67,7 +67,7 @@ public class CharacterMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && CharacterStatus.isGround == true)
         {
             CharacterStatus.isGround = false;
-            GetComponent<Rigidbody>().AddForce(new Vector3(0, JumpForce, 0));
+            GetComponent<Rigidbody>().AddForce(Vector3.up*JumpForce);
         }
     }
 
